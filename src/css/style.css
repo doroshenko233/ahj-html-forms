@@ -1,0 +1,60 @@
+body {
+    height: 1500px;
+}
+
+.button_container {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.pop_button {
+	padding: 10px 10px;
+    border-radius: 5px;
+    background-color: rgb(243, 88, 88);
+    color: #ffffff;
+    font-size: 20px;
+	cursor: pointer;
+	position: relative;
+}
+
+.pop_button:hover {
+    background-color: #c7303f;
+}
+
+.pop_button:active {
+    background-color: #790b14;
+}
+
+.pop_container {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    border: 1px #b4b4b4 solid;
+    border-radius: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.pop_title {
+    background-color: #e6e6e6;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.pop_text {
+    padding: 10px 10px;
+}
+
+.arrow {
+	position: absolute;
+	left: 135px;
+	bottom: -8px;
+	width: 16px;
+	height: 8px;
+	background-color: transparent;
+	background-image: url(../images/arrow.png);
+	background-size: 16px 8px;
+  }
